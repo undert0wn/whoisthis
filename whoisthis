@@ -1,0 +1,3 @@
+whoisthis (){
+    whois $(dig @8.8.8.8 +short $1) | grep -i org
+}
